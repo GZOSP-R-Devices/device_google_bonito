@@ -10,4 +10,5 @@ TARGET_KERNEL_CONFIG := bonito_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/msm-4.9
 
 # vbmeta
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
