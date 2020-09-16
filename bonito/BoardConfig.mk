@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+-include device/google/bonito/bonito/BoardConfigGZOSP.mk
+
 TARGET_BOOTLOADER_BOARD_NAME := bonito
 TARGET_SCREEN_DENSITY := 400
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165

@@ -1,0 +1,1 @@
+BOARD_KERNEL_IMAGE_NAME := Image.lz4
