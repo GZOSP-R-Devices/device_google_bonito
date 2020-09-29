@@ -8,7 +8,7 @@ $(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/bonito/aosp_bonito.mk)
 
--include device/google/bonito/bonito/device-gzosp.mk
+include device/google/bonito/device-gzosp.mk
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := gzosp_bonito
